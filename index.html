@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+    <style>
+      /* only for prez, not for speaker view */
+      @media screen and (min-width: 1500px) {
+        .slides {
+          width: 88% !important;
+        }
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        text-transform: none !important;
+      }
+
+      ol,
+      ul {
+        font-size: 150%;
+      }
+
+      i {
+        font-style: italic;
+      }
+
+      .opacity-hidden {
+        opacity: 0;
+      }
+
+      blockquote {
+        padding: 5px 15px !important;
+      }
+
+      .big-size {
+        font-size: 12rem !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Prosjekter i brann</h1>
+          <h2 class="fragment">Når alt stopper opp</h2>
+          <h2 class="fragment">Hvordan fikse det</h2>
+        </section>
+
+        <section>
+          <h2>Går utviklingshastigheten nedover?</h2>
+          <h2 class="fragment">Går det saktere enn forventet?</h2>
+          <h2 class="fragment">Vet ikke teamet hva de skal gjøre?</h2>
+          <h2 class="fragment">Kommer det nye feil hele tiden?</h2>
+        </section>
+
+        <section data-background="img/project.png"></section>
+
+        <section>
+          <section>
+            <h1>Universum</h1>
+            <h2 class="fragment">Gikk konkurs</h2>
+          </section>
+          <section>
+            <h1>Alvorlige problemer</h1>
+            <h2 class="fragment">Dumping av ikke selgbare utviklere</h2>
+            <h2 class="fragment">Ingen struktur</h2>
+            <h2 class="fragment">Krise teknisk gjeld</h2>
+            <h2 class="fragment">Ansvarsfraskrivelse</h2>
+          </section>
+          <section>
+            <h1>Sendt for å fikse</h1>
+            <h2 class="fragment">Hadde stoppet opp helt</h2>
+            <h2 class="fragment">Kunden på randen av kolaps</h2>
+            <h2 class="fragment">Teamet hadde gitt opp</h2>
+          </section>
+          <section>
+            <h1>Teknisk gjeld</h1>
+            <h2 class="fragment">Vue 2</h2>
+            <h2 class="fragment">Vuex</h2>
+            <h2 class="fragment">Lite TypeScript</h2>
+            <h2 class="fragment">Lite testing</h2>
+          </section>
+          <section>
+            <h1>En ny plan</h1>
+            <h2 class="fragment">"Sparket" en ansatt</h2>
+            <h2 class="fragment">Leide inn flere konsulenter</h2>
+            <h2 class="fragment">Sparket en konsulent</h2>
+            <h2 class="fragment">Ble teck lead & domenekspert</h2>
+          </section>
+          <section>
+            <h1>Lift and shift</h1>
+            <h2 class="fragment">Vue 3</h2>
+            <h2 class="fragment">Typescript</h2>
+            <h2 class="fragment">Ny arkitektur</h2>
+            <h2 class="fragment">Ny standard</h2>
+            <h2 class="fragment">Design i front</h2>
+          </section>
+          <section data-background="img/frontendDevops.png"></section>
+          <section>
+            <h1>Kunden kjempefornøyd</h1>
+          </section>
+          <section data-background="img/project.png"></section>
+          <section>
+            <h1>Jeg kom inn for sent</h1>
+            <h1 class="fragment">Ble utbrent</h1>
+            <h1 class="fragment">Mange mistet jobben</h1>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Hvofor skjer dette?</h1>
+          </section>
+          <section>
+            <h2>Vann over hode</h2>
+            <h2 class="fragment">Dårlig ledelse</h2>
+            <h2 class="fragment">Manglende fokus og rettning</h2>
+            <h2 class="fragment">Mangler psykologisk trygghet</h2>
+            <h2 class="fragment">Ikompetente utviklere</h2>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Hvordan fikse det?</h1>
+            <h2 class="fragment">Kode</h2>
+            <h2 class="fragment">Kultur</h2>
+            <h2 class="fragment">Prosess</h2>
+          </section>
+          <section>
+            <h1>Kode</h1>
+            <h2 class="fragment">Modularisering</h2>
+            <h2 class="fragment">Strangler fig pattern</h2>
+            <h2 class="fragment">Lift and shift arkitektur</h2>
+            <h2 class="fragment">Redusere kompleksitet</h2>
+          </section>
+          <section>
+            <h1>Eksempel</h1>
+            <h2 class="fragment">Stop utvikling i en periode</h2>
+            <h2 class="fragment">Bygg en ny arkitektur</h2>
+            <h2 class="fragment">Legg inn gamle, konverter fortløpende</h2>
+            <h2 class="fragment">Bygg nytt</h2>
+          </section>
+          <section>
+            <h1>Kultur & Prosess</h1>
+            <h2 class="fragment">Mye vanskeligere</h2>
+            <h2 class="fragment">Cultural inertia</h2>
+            <h2 class="fragment">Motstand mot forandring</h2>
+          </section>
+          <section>
+            <h1>Feilallokering</h1>
+            <h2 class="fragment">Ikke alle passer til alt</h2>
+            <h2 class="fragment">Bare en utvikler kan dømme en utvikler</h2>
+            <h2 class="fragment">Fjern fremfor å legge til</h2>
+            <h2 class="fragment">Reduserte byråkrati</h2>
+          </section>
+          <section>
+            <h1>Autonome ansvarlighe team</h1>
+            <h2 class="fragment">Gode utviklere er mer enn utviklere</h2>
+            <h2 class="fragment">Domeneeksperter</h2>
+          </section>
+          <section data-background="img/frontendDevops.png"></section>
+        </section>
+        <section>
+          <section>
+            <h1>Hvordan unngå dette</h1>
+            <h2 class="fragment">Blir fort veldig dyrt</h2>
+          </section>
+          <section>
+            <h1>God arkitektur</h1>
+            <h2 class="fragment">Litt saktere i starten</h2>
+            <h2 class="fragment">Men går ikke ned videre</h2>
+            <h2 class="fragment">Fleksibilitet</h2>
+          </section>
+          <section>
+            <h1>Ansett bare flinke folk</h1>
+            <h2 class="fragment">Bedre med en god en 5 ok utviklere</h2>
+            <h2 class="fragment">Kan være negativ produktive</h2>
+            <h2 class="fragment">Ekstremt spenn</h2>
+          </section>
+          <section>
+            <h1>Psykologisk trygghet</h1>
+            <h2 class="fragment">Stille spørsmål</h2>
+            <h2 class="fragment">Utfordre antagelser</h2>
+            <h2 class="fragment">Bekrefte forståelse</h2>
+            <h2 class="fragment">Si du ikke fortstår</h2>
+          </section>
+          <section>
+            <h1>Pinelig detaljert</h1>
+            <h2 class="fragment">Utvikler skal kjenne løsningen best</h2>
+            <h2 class="fragment">Alle edgecaser</h2>
+          </section>
+          <section>
+            <h1>Autonome ansvarlige team</h1>
+            <h2 class="fragment">Ingen er bare utvikler</h2>
+            <h2 class="fragment">DevOps</h2>
+            <h2 class="fragment">UX & DX</h2>
+            <h2 class="fragment">Proaktiv</h2>
+            <h2 class="fragment">Konflikt tollerange</h2>
+          </section>
+          <section>
+            <h1>Pragmatiske utviklere</h1>
+            <h2 class="fragment">Forstår hvorfor</h2>
+            <h2 class="fragment">Velger rett verktøy</h2>
+            <h2 class="fragment">Ikke Redux</h2>
+            <h2 class="fragment">Jagerflytur til London</h2>
+            <h2 class="fragment">Vet konsekvensen før valget er tatt</h2>
+          </section>
+          <section>
+            <h1>Teknisk gjeld</h1>
+            <h2 class="fragment">Bryr vi oss?</h2>
+            <h2 class="fragment">Vokser eksponensielt</h2>
+            <h2 class="fragment">Minefelt</h2>
+            <h2 class="fragment">Teknsik felsibilitet</h2>
+          </section>
+          <section>
+            <h1>Produkteier</h1>
+            <h2 class="fragment">Over prosjektleder</h2>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Du trenger en ekspert</h1>
+            <h2 class="fragment">Bindeledd mellom utvikling og kunde</h2>
+            <h2 class="fragment">Noen som sier ifra når ting er feil</h2>
+            <h2 class="fragment">Trenger friske øyne</h2>
+            <h2 class="fragment">Noen med mye erfaring</h2>
+          </section>
+        </section>
+        <section>
+          <h1>Hva lærte jeg?</h1>
+          <h1 class="fragment">Jeg kom for sent</h1>
+          <h2 class="fragment">Dyrt å fikse</h2>
+          <h2 class="fragment">Billig å justere</h2>
+        </section>
+        <section>
+          <h1>Du skulle ha startet i går</h1>
+          <h2 class="fragment">Takk for meg</h2>
+          <h2 class="fragment">Jan Greger Hemb</h2>
+          <h2 class="fragment">JProfessionals</h2>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <link rel="stylesheet" href="product-colors.css" />
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        // view: "scroll",
+        // scrollProgress: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
