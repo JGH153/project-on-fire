@@ -101,13 +101,7 @@
 }
 
 .frameworks {
-  background: linear-gradient(
-    90deg,
-    #4fc08d 25%,
-    #dd0031 35%,
-    #dd0031 65%,
-    #5ed4f4 75%
-  );
+  background: linear-gradient(90deg, #4fc08d 25%, #dd0031 35%, #dd0031 65%, #5ed4f4 75%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -267,27 +261,27 @@
 }
 
 .netlify {
-  color: #2FB5BB !important;
+  color: #2fb5bb !important;
 }
 
 .amplify {
-  color: #EC7211 !important;
+  color: #ec7211 !important;
 }
 
 .heroku {
-  color: #79589F !important;
+  color: #79589f !important;
 }
 
 .jira {
-  color: #2684FF !important;
+  color: #2684ff !important;
 }
 
 .linux {
-  color: #F5BE04 !important;
+  color: #f5be04 !important;
 }
 
 .windows {
-  color: #0084DC !important;
+  color: #0084dc !important;
 }
 
 .mac {
@@ -299,6 +293,11 @@
 }
 
 .designer {
-  color: #FF4088 !important;
+  color: #ff4088 !important;
   /* color: #F04E23 !important; */
+}
+
+.water {
+  color: #00b0ff !important;
+  color: #0e87cc !important;
 }
