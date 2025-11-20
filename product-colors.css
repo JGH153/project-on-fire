@@ -313,3 +313,27 @@
 .adhd {
   color: #ff7f00 !important;
 }
+
+.autism {
+  /* background: linear-gradient(to right, #6a11cb 0%, #2575fc 50%, #00d2ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #D4AF37 !important;
+}
+
+.dysleksi {
+  color: #C0C0C0 !important;
+}
+
+.dyskalkuli {
+  color: #D32F2F !important;
+}
+
+.tourette {
+  color: #008080 !important;
+}
+
+.bipolar {
+  color: #4CAF50 !important;
+}
